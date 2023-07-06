@@ -8,7 +8,7 @@ locals {
 }
 
 module "aws_vpc" {
-  source = "../../modules/e2esa-module-aws-vpc"
+  source = "./module-aws-vpc"
 
   create_vpc           = var.create_vpc
   create_igw           = var.create_igw
